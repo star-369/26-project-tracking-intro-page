@@ -1,0 +1,25 @@
+nav
+    relative
+    flex
+    justify-between
+    padding 8
+
+div
+    absolute
+    top whatever nav height
+    flex
+    flex-col
+    padding 4
+    bold
+
+span
+    border top 1px
+    border gray
+    gray
+
+div
+    grid
+
+div second child order -1
+
+span rounded full 

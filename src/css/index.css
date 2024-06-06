@@ -1,0 +1,14 @@
+label .close-menu {
+  display: none;
+}
+
+input:checked ~ label .close-menu {
+  display: block;
+}
+input:checked ~ label .open-menu {
+  display: none;
+}
+input:checked ~ div#sidebar {
+  transform: translateY(0);
+  opacity: 1;
+}
